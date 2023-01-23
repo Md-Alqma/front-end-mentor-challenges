@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
 body {
   display: flex;
   flex-direction: column;
@@ -5,14 +7,7 @@ body {
   align-items: center;
   height: 100vh;
   font-family: "Roboto", sans-serif;
-  background-color: #cbe7f3;
-}
-.attribution {
-  font-size: 12px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
+  background-color: hsl(215, 46%, 89%);
 }
 
 .container {
@@ -22,7 +17,7 @@ body {
   border-radius: 10px;
   padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  background-color: #fff;
+  background-color: hsl(0, 0%, 100%);
 }
 
 .container .img_container {
@@ -39,18 +34,24 @@ body {
   object-fit: cover;
 }
 .desc {
-  padding: 0 19px 20px;
+  padding: 10px 19px 20px;
+}
+
+h3 {
+  font-weight: 700;
 }
 
 .desc p {
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 24px;
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
 }
 
-.desc span {
+.attribution {
   font-size: 12px;
-  font-weight: initial;
-  font-weight: 600;
-  color: rgb(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
